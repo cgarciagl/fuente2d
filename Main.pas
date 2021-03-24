@@ -3,10 +3,8 @@ unit Main;
 interface
 
 uses
-  System.SysUtils, System.Types, System.UITypes, System.Classes,
-  System.Variants, System.Generics.Collections,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
-  FMX.Ani, uGota;
+  System.SysUtils, System.Types, System.Classes, System.Generics.Collections,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Objects, FMX.Ani, uGota;
 
 type
   TForm2 = class(TForm)
@@ -15,8 +13,7 @@ type
     procedure FormCreate(Sender: TObject);
     procedure FloatAnimation1Process(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
-    procedure LienzoPaint(Sender: TObject; Canvas: TCanvas;
-      const ARect: TRectF);
+    procedure LienzoPaint(Sender: TObject; Canvas: TCanvas; const ARect: TRectF);
   private
     { Private declarations }
   public
@@ -26,7 +23,7 @@ type
 var
   Form2: TForm2;
   Gotas: TObjectList<TGota>;
-  CuantasGotas: integer = 500;
+  CuantasGotas: integer = 1000;
 
 implementation
 
@@ -42,6 +39,7 @@ var
   I: integer;
   g: TGota;
 begin
+  GlobalUseDX10Software := True;
   Gotas := TObjectList<TGota>.Create(True);
   for I := 1 to CuantasGotas do
   begin
@@ -55,8 +53,7 @@ begin
   Gotas.Destroy;
 end;
 
-procedure TForm2.LienzoPaint(Sender: TObject; Canvas: TCanvas;
-  const ARect: TRectF);
+procedure TForm2.LienzoPaint(Sender: TObject; Canvas: TCanvas; const ARect: TRectF);
 var
   I: integer;
 begin
@@ -70,3 +67,4 @@ begin
 end;
 
 end.
+

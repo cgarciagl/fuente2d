@@ -2,11 +2,11 @@ unit UGota;
 
 interface
 
-uses System.Types, FMX.Objects, FMX.Graphics;
+uses
+  System.Types, FMX.Objects, FMX.Graphics;
 
 type
-
-  TGota = Class(TObject)
+  TGota = class(TObject)
     vlienzo: TRectangle;
     Canvas: TCanvas;
     alfa: single;
@@ -27,7 +27,8 @@ implementation
 
 { TGota }
 
-uses System.UiTypes;
+uses
+  System.UiTypes;
 
 constructor TGota.Create(fLienzo: TRectangle);
 begin
@@ -66,7 +67,6 @@ begin
   alfa := 1;
   gravedad.Y := 1;
   gravedad.x := 0;
-  // gravedad := gravedad * random;
 end;
 
 function TGota.randomDir: TPointf;
@@ -85,9 +85,9 @@ begin
   end;
 
   tdir.Y := -random(35);
-   if tdir.y > -30 then
-      if random(100) > 10 then
-        tdir.y := tdir.Y - (20);
+  if tdir.Y > -30 then
+    if random(100) > 10 then
+      tdir.Y := tdir.Y - (20);
 
   tdir := tdir * random();
   result := tdir;

@@ -3,15 +3,17 @@
 	<Transactions>
     <Transaction>2021/03/08 19:00:27.000.477,=C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2021/03/08 19:08:21.000.575,=C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\ConvierteUnit.pas</Transaction>
-    <Transaction>2021/03/08 19:09:58.000.707,C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=D:\pruebas\Project1\Unit1.dfm</Transaction>
-    <Transaction>2021/03/08 19:09:58.000.707,C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\pruebas\Project1\Unit1.pas</Transaction>
+    <Transaction>2021/03/08 19:09:58.000.707,D:\pruebas\Project1\Unit1.dfm=C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/03/08 19:09:58.000.707,D:\pruebas\Project1\Unit1.pas=C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2021/03/08 19:10:02.000.927,C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2021/03/23 16:31:12.874,=C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2021/03/23 16:31:53.871,D:\proyectos Delphi\Fuente2D\Main.fmx=C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
-    <Transaction>2021/03/23 16:31:53.871,D:\proyectos Delphi\Fuente2D\Main.pas=C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2021/03/23 16:32:04.456,D:\proyectos Delphi\Fuente2D\Fuente2D.dproj=C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2021/03/23 16:33:17.789,=D:\proyectos Delphi\Fuente2D\Unit1.pas</Transaction>
-    <Transaction>2021/03/23 16:33:33.118,D:\proyectos Delphi\Fuente2D\UGota.pas=D:\proyectos Delphi\Fuente2D\Unit1.pas</Transaction>
-  </Transactions>  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5" Android="33702f33"/>
-  </ActiveMobileDevice>
+    <Transaction>2021/03/23 16:31:12.000.874,=C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/03/23 16:31:53.000.871,C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Unit2.pas=D:\proyectos Delphi\Fuente2D\Main.pas</Transaction>
+    <Transaction>2021/03/23 16:31:53.000.871,C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Unit2.fmx=D:\proyectos Delphi\Fuente2D\Main.fmx</Transaction>
+    <Transaction>2021/03/23 16:32:04.000.456,C:\Users\52228\OneDrive - Universidad Veracruzana\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\proyectos Delphi\Fuente2D\Fuente2D.dproj</Transaction>
+    <Transaction>2021/03/23 16:33:17.000.789,=D:\proyectos Delphi\Fuente2D\Unit1.pas</Transaction>
+    <Transaction>2021/03/23 16:33:33.000.118,D:\proyectos Delphi\Fuente2D\Unit1.pas=D:\proyectos Delphi\Fuente2D\UGota.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="33702f33" Android64="33702f33"/>
+	</ActiveMobileDevice>
 </BorlandProject>

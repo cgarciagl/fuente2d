@@ -1,20 +1,22 @@
 object Form2: TForm2
-  Left = 0
+  Left = 340
   Top = 0
   Caption = 'Form2'
-  ClientHeight = 474
-  ClientWidth = 409
+  ClientHeight = 488
+  ClientWidth = 342
+  Position = Designed
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   OnCreate = FormCreate
   OnDestroy = FormDestroy
+  Left = 340
   DesignerMasterStyle = 0
   object Lienzo: TRectangle
     Align = Client
     Fill.Color = claBlack
-    Size.Width = 409.000000000000000000
-    Size.Height = 474.000000000000000000
+    Size.Width = 342.000000000000000000
+    Size.Height = 488.000000000000000000
     Size.PlatformDefault = False
     OnPaint = LienzoPaint
   end
