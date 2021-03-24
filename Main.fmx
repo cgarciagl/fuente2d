@@ -1,0 +1,30 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 474
+  ClientWidth = 409
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object Lienzo: TRectangle
+    Align = Client
+    Fill.Color = claBlack
+    Size.Width = 409.000000000000000000
+    Size.Height = 474.000000000000000000
+    Size.PlatformDefault = False
+    OnPaint = LienzoPaint
+  end
+  object FloatAnimation1: TFloatAnimation
+    Enabled = True
+    Duration = 1.000000000000000000
+    Loop = True
+    OnProcess = FloatAnimation1Process
+    PropertyName = 'TagFloat'
+    StartValue = 0.000000000000000000
+    StopValue = 1.000000000000000000
+  end
+end
