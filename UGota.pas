@@ -45,8 +45,7 @@ begin
   R := Trect.Empty;
   R.Location := Centro.Round;
   R.Inflate(2, 2);
-  Canvas.Fill.Color := TAlphaColors.Aqua;
-  Canvas.Stroke.Color := TAlphaColors.Aqua;
+  Canvas.Fill.Color := TAlphaColors.Crimson;
   Canvas.FillEllipse(R, alfa);
 end;
 
