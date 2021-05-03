@@ -13,10 +13,10 @@ type
     dir, gravedad: TPointf;
   private
     InicioenY: Shortint;
-    procedure InicializaGota;
     procedure ChecarPorReinicio;
   public
     Centro: TPointf;
+    procedure InicializaGota;
     constructor Create(fLienzo: TRectangle);
     function randomDir: TPointf;
     procedure Update;

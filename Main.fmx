@@ -10903,6 +10903,7 @@ object Form2: TForm2
     Size.Width = 342.000000000000000000
     Size.Height = 488.000000000000000000
     Size.PlatformDefault = False
+    OnClick = LienzoClick
     OnPaint = LienzoPaint
   end
   object FloatAnimation1: TFloatAnimation

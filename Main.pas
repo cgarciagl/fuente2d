@@ -13,7 +13,9 @@ type
     procedure FormCreate(Sender: TObject);
     procedure FloatAnimation1Process(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
-    procedure LienzoPaint(Sender: TObject; Canvas: TCanvas; const ARect: TRectF);
+    procedure LienzoPaint(Sender: TObject; Canvas: TCanvas;
+      const ARect: TRectF);
+    procedure LienzoClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -53,7 +55,18 @@ begin
   Gotas.Destroy;
 end;
 
-procedure TForm2.LienzoPaint(Sender: TObject; Canvas: TCanvas; const ARect: TRectF);
+procedure TForm2.LienzoClick(Sender: TObject);
+var
+  I: integer;
+begin
+  for I := 0 to Gotas.Count - 1 do
+  begin
+    Gotas[I].InicializaGota;
+  end;
+end;
+
+procedure TForm2.LienzoPaint(Sender: TObject; Canvas: TCanvas;
+  const ARect: TRectF);
 var
   I: integer;
 begin
@@ -67,4 +80,3 @@ begin
 end;
 
 end.
-
